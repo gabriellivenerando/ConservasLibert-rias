@@ -8,6 +8,22 @@ html, body {
 /* Header */
 
 /* Sobre */
+.about--slot-start{
+    background: url("../images/about-start.png");
+    height: 24px;
+    width: 100%;
+}
+
+.about-box{
+    background: url("../images/about-center.png");
+    padding: 140px 0;
+}
+
+.about--slot-end{
+    background: url("../images/about-end.png");
+    height: 24px;
+    width: 100%;
+}
 
 /* Carrossel */
 
