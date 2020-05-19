@@ -19,9 +19,11 @@ body {
 
 .recipe__title {
     font-family: "Lobster", cursive;
+    font-size: 40px;
     color: #8F1216;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 90px;
+    padding-bottom: 50px;
 }
 
 .recipe__box {
@@ -32,56 +34,84 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
+    padding-bottom: 90px;
+
 }
 
 
 .recipe__box_1,
 .recipe__box_2,
 .recipe__box_3 {
-    
+
     position: center;
     background: #FFFFFF;
     border: 1px solid #E7E7E7;
     box-sizing: border-box;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
     border-radius: 4px;
-    
-   
+    margin-bottom: 10px;
+
+
 }
 
 .recipe__box_img_1,
 .recipe__box_img_2,
-.recipe__box_img_3
-{
+.recipe__box_img_3 {
     width: 90%;
-    
-
-    
+    margin: 20px
 }
 
-.recipe__box_paragraph {
+.recipe__box_paragraph_1,
+.recipe__box_paragraph_2,
+.recipe__box_paragraph_3 {
 
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 20px;
     text-align: center;
-
+    margin-left: 10px;
+    margin-right: 10px;
     color: #000000;
 }
+
+.button {
+    background: #00672F;
+    border: 1px solid #65A381;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Lobster;
+    font-size: 24px;
+    line-height: 22px;
+    color: #FFFFFF;
+   ;
+    
+}
+.meuDeus{
+    margin:31%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.recipe__box_1-info {
+    display: hide;
+}
+
 /*desktop*/
-@media screen and (min-width: 700px){
+@media screen and (min-width: 700px) {
 
     .recipe__box {
-        
+
         display: flex;
         justify-content: space-evenly;
-        flex-direction:row ;
+        flex-direction: row;
         align-items: center;
         margin-left: 10px;
         margin-right: 10px;
         margin-bottom: 10px;
     }
-    }
+}
+
 /* Footer */
