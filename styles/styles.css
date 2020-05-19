@@ -1,6 +1,7 @@
 /* Document */
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
@@ -12,5 +13,75 @@ html, body {
 /* Carrossel */
 
 /* Receitas */
+.recipe {
+    background-color: rgba(143, 18, 22, 0.05);
+}
 
+.recipe__title {
+    font-family: "Lobster", cursive;
+    color: #8F1216;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.recipe__box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+.recipe__box_1,
+.recipe__box_2,
+.recipe__box_3 {
+    
+    position: center;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    
+   
+}
+
+.recipe__box_img_1,
+.recipe__box_img_2,
+.recipe__box_img_3
+{
+    width: 90%;
+    
+
+    
+}
+
+.recipe__box_paragraph {
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+/*desktop*/
+@media screen and (min-width: 700px){
+
+    .recipe__box {
+        
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction:row ;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    }
 /* Footer */
