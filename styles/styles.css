@@ -4,6 +4,43 @@ html, body {
     margin: 0;
     padding: 0;
 }
+.navbar{
+    background-color: red;
+    color: white;
+}
+
+.navbar__menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}    
+        
+.navbar__menu_item-link{
+    color: white;
+}
+
+.button{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Header */
 
