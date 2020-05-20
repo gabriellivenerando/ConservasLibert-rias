@@ -27,6 +27,15 @@ body {
     padding-top: 35px;
     padding-bottom: 36px;
 }
+.recipe__title-modal{
+    font-family: "Lobster", cursive;
+    font-size: 30x;
+    line-height: 40px;
+    color: #8F1216;
+    text-align: center;
+    padding-top: 35px;
+    
+}
 
 .recipe__box {
     display: flex;
@@ -75,7 +84,9 @@ body {
     margin-right: 10px;
     color: #000000;
 }
-
+.bg_color_recipe{
+    background: #00672F;
+}
 .button {
     background: #00672F;
     border: 1px solid #65A381;
