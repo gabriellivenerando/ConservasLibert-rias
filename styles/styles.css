@@ -4,24 +4,45 @@ html, body {
     margin: 0;
     padding: 0;
 }
-.navbar{   
-    background-image: url("img_nature.jpg");
-    color: red;
+
+.background-header{
+    background-image: url(../img/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin: 0 auto;
+    padding:10px;
+}
+
+
+.navbar{
+    margin-bottom: 15px;
 }
 
 .navbar__menu{
     display: flex;
-    justify-content: space-around;
-    padding: 10px;
-}    
-        
+    justify-content: left;
+    padding: 0px;
+    margin: auto;    
+}
+
 .navbar__menu_item-link{
+    display: flex;
+    justify-content: space-around;
     color: white;
+} 
+
+.logo{
+    text-align:center;
+    margin: 0 auto;
+    padding:0px;
 }
 
 .button__link{
-    width:30px;
+    width: 100%;
+    height: auto;
 }    
+
 /* .button{
     background-color: green;
     color: white;
