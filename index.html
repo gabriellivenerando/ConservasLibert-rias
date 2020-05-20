@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conservas</title>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/styles.css">
-    <script src="/scripts/scripts.js"></script>
-    
+
+
 
 </head>
 
@@ -22,39 +23,98 @@
     <!-- Receitas -->
 
     <section class="recipe">
-        <h3 class="recipe__title">Receitas inspiradoras</h3>
+        <h3 class="recipe__title ">Receitas inspiradoras</h3>
         <div class="recipe__box">
 
             <div class="recipe__box_un -1">
-                <img class="recipe__box_img -1" src="img/pure.svg">
-                <p class="recipe__box_paragraph -1">Panqueca sem Glúten de Aveia com Recheio de Carne</p>
-               <div class="meuDeus"><button class="button"> Saiba mais</button></div> 
+                <img class="recipe__box_img -1" src="img/risoto.jpeg">
+                <p class="recipe__box_paragraph -1">Risoto de berinjela com shimeji, manteiga e shoyo</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn button meuDeus" data-toggle="modal"
+                    data-target="#exampleModalLong">Saiba mais </button>
 
-              
+
             </div>
 
             <div class="recipe__box_un 2">
-                <img class="recipe__box_img -2" src="img/pure.svg">
-                <p class="recipe__box_paragraph -2">Panqueca sem Glúten de Aveia com Recheio de Carne</p>
-                <div class="meuDeus"><button class="button"> Saiba mais</button></div> 
+                <img class="recipe__box_img -2" src="img/parpadelle.jpeg">
+                <p class="recipe__box_paragraph -2">Parpadelle com abobrinha defumada com tomate seco</p>
+                <div class="meuDeus"><button id="saibaMais" class="button"> Saiba mais</button></div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                    Launch demo modal
+                </button>
 
             </div>
-            
+
             <div class="recipe__box_un 3">
-                <img class="recipe__box_img -3" src="img/pure.svg">
-                <p class="recipe__box_paragraph -3">Panqueca sem Glúten de Aveia com Recheio de Carne</p>
-                <div class="meuDeus"><button class="button"> Saiba mais</button></div> 
+                <img class="recipe__box_img -3" src="img/dadinho.jpeg">
+                <p class="recipe__box_paragraph -3">Dadinho de tapioca com geleia de rosas e gengibre</p>
+                <div class="meuDeus"><button id="saibaMais" class="button"> Saiba mais</button></div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                    Launch demo modal
+                </button>
             </div>
 
         </div>
 
-        <div class="modal">
-            <img src="img/pure.svg">
-            <h3>Panqueca sem glutem de aveia com recheio de carne</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint deleniti blanditiis voluptatum repellat ipsum quasi deserunt eligendi veniam autem, animi sunt eaque ipsam! Rem vero aliquid officia? Architecto, qui velit.</p>
+
+
+        <!-- Modal -->
+        <div class=" modal fade " id="exampleModalLong" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class=" modal-dialog " role="document">
+                <div class="modal-content  ">
+                    <div class="modal-header  ">
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body"></div>
+                    <img src="img/risoto.jpeg" class="card-img-top imagem-card px-4 mt-4">
+                    <h3 class="modal-title recipe__title" id="exampleModalLongTitle">Risoto de berinjela com shimeji,
+                        manteiga e shoyo</h3>
+                    <div class="recipe__box_paragraph">
+                        <h5>Ingredientes</h5>
+                        <ul>• 1 vidro de 200g de berinjela com shimeji, manteiga e shoyo das Conservas Libertárias
+                            • 1 cebola picada
+                            • 1 colher de sopa de alho socado/ralado ou picado
+                            • 1 colher de sopa de azeite de oliva
+                            • Vinho tinto 1/2 copo
+                            • Cebolinha a gosto
+                            • Sal a gosto
+                            • 1/2 copo de molho de tomate das Conservas Libertárias
+                            • 1 xícara de arroz arbóreo
+                            • 2 xícaras de caldo de legumes.
+                            • Queijo parmesão
+                        </ul>
+
+                        <h3>Modo de preparo</h3>
+                        <ul>
+                            1. Frite a cebola e o alho, acrescente o arroz, deixe-o fritar um pouco e acrescente o molho
+                            de tomate (sem pele).<br>
+                            2. Acrescente o vinho tinto, deixe secar um pouquinho.<br>
+                            3. Coloque a berinjela com shimeji e shoyo e vá colocando a água para cozinhar o arroz.
+                            Quando estiver pronto, desligue e acrescente o queijo parmesão.
+                            (para uma melhor finalização rale o queijo parmesão na hora e preserve a deliciosidade)
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn  button meuDeus" data-dismiss="modal">Voltar</button>
+
+                </div>
+            </div>
+        </div>
         </div>
 
     </section>
+
+    <script src="scripts/jquery-3.4.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
 
     <!-- Footer -->
 
