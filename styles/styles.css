@@ -17,9 +17,22 @@ body {
 
 /* Contato */
 
-.contact {
-    background-color: #00672F;
+/* .contact {padding-bottom: 15px;
+} */
+.bg-top {
+    height: 24px;
+    width: 100%;
+    background-image: url(../img/top-green.svg);
 }
+
+.bg-bottom {
+    height: 24px;
+    width: 100%;
+    background-image: url(../img/top-green.svg);
+    transform: rotate(180deg);
+
+}
+
 
 .contact__border {
     width: 100%;
@@ -27,17 +40,23 @@ body {
 
 .contact__box {
     text-align: center;
+    background-color: #00672F;
+    padding: 15px 0;
 }
 
 .contact__box_title {
     font-size: 36px;
     font-family: 'Lobster', cursive;
     color: #ffffff;
-    margin-top: 70px;
+    /* margin-top: 70px; */
 }
 
 .contact__box_form {
     margin: 20px;
+}
+
+.contact__box_name-email {
+    /* width: 100%; */
 }
 
 #name {
@@ -66,6 +85,8 @@ body {
 
 ::-webkit-input-placeholder {
     color: #FFFFFF;
+    font-size: 18px;
+    padding-left: 20px;
 }
 
 .contact__box_button {
@@ -81,6 +102,7 @@ body {
     font-size: 20px;
     line-height: 25px;
     color: #3F9566;
+    justify-content: end;
 }
 
 hr {
@@ -89,28 +111,29 @@ hr {
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.contact__box_redes-sociais {}
-
-.fab {
-    color: #00672F;
-    padding: 10px;
-    background-color: #FFFFFF;
-    border-radius: 50%;
-    margin-right: 20px;
+.contact__box_redes-sociais {
+    padding: 20px;
 }
 
-.contact__box_redes-sociais-tiktok {
-    width: 30px;
-    background-color: #FFFFFF;
-    border-radius: 50%;
-    color: #00672F;
+.contact__box_redes-sociais-links {
+    margin-right: 20px;
 }
 
 
 /* Footer */
 
+.footer {
+    font-size: 14px;
+    line-height: 18px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 /* Media Screen para Celular */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
 
     .contact__box_form {
         margin: 20px 90px;
@@ -118,13 +141,14 @@ hr {
 
     .contact__box_name-email {
         display: flex;
-        width: 100%;
+        justify-content: space-between;
+
     }
 
-    .contact__box_form input,
+    /* .contact__box_form input,
     textarea {
         width: 100%;
-    }
+    } */
 
     .contact__box_button {
         text-align: end;
@@ -146,9 +170,9 @@ hr {
     }
 }
 
-/* Media Screen para Tablet */
+/* Media Screen para Tablet*/
 @media screen and (min-width: 1025px) {
     .contact__box_form {
-        margin: 20px 250px;
+        margin: 20px 200px;
     }
 }
