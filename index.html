@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conservas</title>
+    <script src="https://kit.fontawesome.com/8c100b4e25.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="/styles/styles.css">
     <script src="/scripts/scripts.js"></script>
-    <script src="https://kit.fontawesome.com/8c100b4e25.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -24,37 +23,54 @@
     <!-- Contato -->
 
     <section id="contact" class="contact">
-        <img class="contact__border" src="img/top-green.svg" alt="">
+        <div class="bg-top">
+        </div>
         <div class="contact__box">
             <h2 class="contact__box_title">Entre em contato</h2>
 
             <div class="contact__box_form">
-                <div class="contact__box_name-email">
-                    <input type="text" id="name" placeholder="Nome">
-                    <input type="email" placeholder="Email">
-                </div>
-                <input type="text" placeholder="Assunto">
-                <textarea name="message" cols="50" rows="50" placeholder="Mensagem"></textarea>
 
-                <div class="contact__box_button">
-                    <button class="contact__box_button-send">Enviar</button>
-                </div>
+
+                <form action="https://formspree.io/mdowaykl" method="POST">
+                    <div class="contact__box_name-email">
+                        <label class="contact__box_label label-name">
+                            <input type="text" placeholder="Nome">
+                        </label>
+                        <label class="contact__box_label">
+                            <input type="text" placeholder="Email" name="_replyto">
+                        </label>
+                    </div>
+                    <label>
+                        <input type="text" placeholder="Assunto">
+                    </label>
+                    <label>
+                        <textarea name="message" placeholder="Mensagem"></textarea>
+                    </label>
+                    <div class="contact__box_button">
+                        <button type="submit" class="contact__box_button-send">Enviar</button>
+                    </div>
+                </form>
                 <hr>
             </div>
 
             <h2 class="contact__box_title">Siga nas Redes Sociais</h2>
             <div class="contact__box_redes-sociais">
-                <a href=""><i class="fab fa-facebook-f fa-lg"></i></a>
-                <a href=""><i class="fab fa-instagram fa-lg"></i></a>
-                <a href=""><i class="fab fa-youtube fa-lg"></i></a>
-                <a href=""><i class="fab fa-whatsapp fa-lg"></i></a>
+                <a href=""><img class="contact__box_redes-sociais-links" src="img/Facebook.png" alt=""></a>
+                <a href="https://www.instagram.com/conservaslibertarias/"><img class="contact__box_redes-sociais-links"
+                        src="img/Instagram.png" alt=""></a>
+                <a href="https://www.youtube.com/channel/UCYVaCcUPPYR77hFIBNQ3iTg/featured"><img
+                        class="contact__box_redes-sociais-links" src="img/Youtube.png" alt=""></a>
+                <a href=""><img class="contact__box_redes-sociais-links" src="img/Whatsapp.png" alt=""></a>
             </div>
-
         </div>
-        <img class="contact__border" src="img/bottom-green.svg" alt="">
+        <div class="bg-bottom">
+        </div>
     </section>
 
     <!-- Footer -->
+    <div class="footer">
+        <p class="footer__paragraph">© 2020 Conservas Libertárias. Todos os direitos reservados.</p>
+    </div>
 
 </body>
 
