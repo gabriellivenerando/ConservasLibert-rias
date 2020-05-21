@@ -101,6 +101,144 @@ ul{
   
   
 /* Receitas */
+.recipe {
+    background-color: rgba(143, 18, 22, 0.05);
+    padding: 20px;
+}
+
+.recipe__title {
+    font-family: "Lobster", cursive;
+    font-size: 32px;
+    line-height: 40px;
+    color: #8F1216;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 36px;
+}
+.recipe__title-modal{
+    font-family: "Lobster", cursive;
+    font-size: 30x;
+    line-height: 40px;
+    color: #8F1216;
+    text-align: center;
+    padding-top: 35px;
+    
+}
+
+.recipe__box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 90px;
+
+}
+
+
+.recipe__box_un {
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+
+
+}
+
+.recipe__box_img {
+    width: 100%;
+    
+    
+}
+
+.recipe__box_paragraph {
+    padding-top: 20px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000000;
+}
+.bg_color_recipe{
+    background: #00672F;
+}
+.button {
+    background: #00672F;
+    border: 1px solid #65A381;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Lobster;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    ;
+
+}
+
+.meuDeus {
+    margin: 31%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.mask {
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    /* usa rgba prq cor */
+    background: rgba(0, 0, 0, 0.4)
+    
+    
+}
+
+
+/*desktop*/
+@media screen and (min-width: 700px) {
+
+    .recipe__title {
+        font-size: 40px;
+        line-height: 50px;
+        padding-top: 35px;
+        padding-bottom: 36px;
+    }
+
+    .recipe__box {
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .recipe__box_un {
+        width: 30%;
+    }
+}
 
 /* Contato */
 
