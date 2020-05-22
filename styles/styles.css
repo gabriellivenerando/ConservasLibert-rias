@@ -6,6 +6,7 @@ body {
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
 }
+/* Header */
 
 .navbar{
     margin-bottom: 10px;
@@ -55,7 +56,6 @@ body {
     color: white;
   }
 
-/* Header */
 
 /* Sobre */
 
