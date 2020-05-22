@@ -6,13 +6,178 @@ body {
     padding: 0;
 }
 
+.navbar{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.navbar__menu{
+    display: flex;
+    font-size: 10px;
+    color: white;
+    list-style: none;
+    padding: 0px;
+    margin: auto;
+}
+
+.background-header{
+    background-image: url(../img/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin: 0 auto;
+    padding:10px;
+}
+
+.logo{
+    text-align:center;
+    margin: 0 auto;
+    padding:0px;
+}
+
+.btn_whatsapp {
+    background-color: #01e675;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    width: 200px;
+    transition-duration: 0.4s;
+  } 
+  
+  .btn_whatsapp:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
 /* Header */
 
 /* Sobre */
 
 /* Carrossel */
 
+ul{
+    list-style: none;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .products__box{
+    flex: 1 1 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 68px;
+    
+  }
+  
+  .title__box{
+    margin: auto;
+    
+  }
+  
+  .title__box-desktop{
+    display: none;
+  }
+  
+  .products__title{
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
+    margin: auto;
+    width: 67%;
+    text-align: center;
+  }
+
+  .products__subtitle{
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .products__list{
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap; 
+    padding-bottom: 30px;
+  }
+  
+  .list__img{
+    text-align: center;
+    display: inline-block;
+    justify-content: space-between;
+    border: 1px solid #C4C4C4;
+    height: 440px;
+    width: 335px;
+    margin-right: 44px;
+    cursor: pointer;
+  }
+  
+  .img__products{
+    max-height:100%;
+    max-width: 100%;
+  }
+  
+  .list__productsname{
+    font-weight: bold;
+  }
+  
+  .titulo{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+  }
+  
+  .list__btn{
+    background-color: #00672F;
+    width: 184px;
+    height: 56px;
+    border-radius: 5%;
+    border: 1px solid #00672F;
+    color: #FFFF;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+  }
+  
+  
+  .products__list::-webkit-scrollbar-thumb{
+    background: var(--color-header);
+    border-left: 4px solid var(--color-header);
+    border-right: 4px solid var(--color-header);
+  } 
+  
+  .products__list::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+  @media screen and (min-width: 700px){
+    .title__box-desktop{
+      display:flex;
+      flex-direction: column;
+      margin: auto;
+      margin-bottom: 38px;
+    }
+
+    .title__box{
+      display:none;
+    }
+
+    .products__title-desktop{
+      margin: 0;
+      font-size: 32px;
+      font-family: 'Lobster', cursive;
+    }
+
+    .products__subtitle-desktop{
+      width: 247px;
+      margin: auto;
+    }
+  }
+  
 /* Receitas */
+
 .recipe {
     background-color: rgba(143, 18, 22, 0.05);
     padding: 20px;
@@ -65,7 +230,6 @@ body {
     width: 100%;
 }
 
-
 .recipe__box_paragraph {
     padding-top: 20px;
     font-family: Source Sans Pro;
@@ -115,8 +279,8 @@ body {
     justify-content: center;
 }
 
-
 /*desktop*/
+
 @media screen and (min-width: 700px) {
 
     .recipe__title {
@@ -127,7 +291,6 @@ body {
     }
 
     .recipe__box {
-
         display: flex;
         justify-content: space-evenly;
         flex-direction: row;
