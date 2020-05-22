@@ -58,6 +58,7 @@ body {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
     border-radius: 4px;
     margin-bottom: 10px;
+    align-items: center;
 }
 
 .recipe__box_img {
@@ -107,7 +108,7 @@ body {
 }
 
 .button__recipe_position {
-    margin: 31%;
+    width: 50%;
     margin-bottom: 20px;
     margin-top: 10px;
     display: flex;
@@ -139,6 +140,7 @@ body {
     .recipe__box_un {
         width: 30%;
     }
+
 }
 
 /* Footer */
