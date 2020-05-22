@@ -423,6 +423,7 @@ hr {
 /* Footer */
 
 .footer {
+   background-color:  rgba(143, 18, 22, 0.05);
     font-size: 14px;
     line-height: 18px;
     height: 200px;
