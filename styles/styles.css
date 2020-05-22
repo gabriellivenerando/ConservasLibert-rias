@@ -4,7 +4,6 @@ html,
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .navbar{
@@ -68,8 +67,6 @@ ul{
   * {
     box-sizing: border-box;
   }
-  
-  
   
   .products__box{
     flex: 1 1 500px;
@@ -179,8 +176,8 @@ ul{
     }
   }
   
-  
 /* Receitas */
+
 .recipe {
     background-color: rgba(143, 18, 22, 0.05);
     padding: 20px;
@@ -226,12 +223,12 @@ ul{
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
     border-radius: 4px;
     margin-bottom: 10px;
+    align-items: center;
 }
 
 .recipe__box_img {
     width: 100%;
 }
-
 
 .recipe__box_paragraph {
     padding-top: 20px;
@@ -275,15 +272,15 @@ ul{
 }
 
 .button__recipe_position {
-    margin: 31%;
+    width: 50%;
     margin-bottom: 20px;
     margin-top: 10px;
     display: flex;
     justify-content: center;
 }
 
-
 /*desktop*/
+
 @media screen and (min-width: 700px) {
 
     .recipe__title {
@@ -294,7 +291,6 @@ ul{
     }
 
     .recipe__box {
-
         display: flex;
         justify-content: space-evenly;
         flex-direction: row;
@@ -307,168 +303,7 @@ ul{
     .recipe__box_un {
         width: 30%;
     }
-}
-
-/* Contato */
-
-.bg-top {
-    height: 24px;
-    width: 100%;
-    background-image: url(../img/top-green.svg);
-}
-
-.bg-bottom {
-    height: 24px;
-    width: 100%;
-    background-image: url(../img/top-green.svg);
-    transform: rotate(180deg);
 
 }
-
-
-.contact__border {
-    width: 100%;
-}
-
-.contact__box {
-    text-align: center;
-    background-color: #00672F;
-    padding: 15px 0;
-}
-
-.contact__box_title {
-    font-size: 36px;
-    font-family: 'Lobster', cursive;
-    color: #ffffff;
-    /* margin-top: 70px; */
-}
-
-.contact__box_form {
-    margin: 20px;
-}
-
-.contact__box_name-email {
-    /* width: 100%; */
-}
-
-#name {
-    margin-right: 20px;
-}
-
-.contact__box_form input {
-    background: #3F9566;
-    opacity: 0.5;
-    border-radius: 4px;
-    width: 100%;
-    margin: 10px 0;
-    padding: 20px 0;
-
-}
-
-.contact__box_form textarea {
-    background: #3F9566;
-    opacity: 0.5;
-    border-radius: 4px;
-    width: 100%;
-    margin: 10px 0;
-    padding: 20px 0;
-    height: 150px;
-}
-
-::-webkit-input-placeholder {
-    color: #FFFFFF;
-    font-size: 18px;
-    padding-left: 20px;
-}
-
-input ::-webkit-progress-inner-value {
-    color: #FFFFFF;
-}
-
-.contact__box_button {
-    text-align: center;
-}
-
-.contact__box_button-send {
-    width: 100%;
-    background: #FFFFFF;
-    border-radius: 4px;
-    padding: 10px 20px;
-    font-family: 'Lobster', cursive;
-    font-size: 20px;
-    line-height: 25px;
-    color: #3F9566;
-    justify-content: end;
-}
-
-hr {
-    width: 100%;
-    margin-top: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.contact__box_redes-sociais {
-    padding: 20px;
-}
-
-.contact__box_redes-sociais-links {
-    margin-right: 20px;
-}
-
 
 /* Footer */
-
-.footer {
-    font-size: 14px;
-    line-height: 18px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-/* Media Screen para Celular */
-@media screen and (min-width: 700px) {
-
-    .contact__box_form {
-        margin: 20px 150px;
-    }
-
-    .contact__box_name-email {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
-    .contact__box_label {
-        width: 550px;
-
-    }
-     .label-name {
-        margin-right: 20px;
-    }
-
-    /* .contact__box_form input,
-    textarea {
-        width: 100%;
-    } */
-
-    .contact__box_button {
-        text-align: end;
-    }
-
-    .contact__box_button-send {
-        width: 120px;
-        background: #FFFFFF;
-        border-radius: 4px;
-        padding: 10px 20px;
-        font-family: 'Lobster', cursive;
-        font-size: 20px;
-        line-height: 25px;
-        color: #3F9566;
-    }
-
-    .contact__box_title {
-        font-size: 40px;
-    }
-}
