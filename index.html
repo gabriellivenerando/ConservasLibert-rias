@@ -4,12 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conservas</title>
-
-    <script src="https://kit.fontawesome.com/8c100b4e25.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/bootstrap.min.css">
-    <link rel="stylesheet" href="/styles/styles.css">
-    <script src="/scripts/scripts.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
 
 </head>
 
@@ -18,11 +15,18 @@
     <header class="background-header"> 
       <nav class="navbar">
         <ul class="navbar__menu">
-            <li class="menu-item">SOBRE</li>
-            <li class="menu-item">NOSSOS PRODUTOS</li>
-            <li class="menu-item">RECEITAS</li>
-            <li class="menu-item">CONTATO</li>                
-            </li>
+            <li class="navbar__menu_item">
+                <a class="navbar__menu_item-link" href="#">Sobre</a>
+              </li>
+              <li class="navbar__menu_item">
+                <a class="navbar__menu_item-link" href="#">Nossos Produtos</a>
+              </li>
+              <li class="navbar__menu_item">
+                <a class="navbar__menu_item-link" href="#">Receitas</a>
+              </li>
+              <li class="navbar__menu_item">
+                <a class="navbar__menu_item-link" href="#">Contatos</a>
+              </li>  
         </ul>
         <div class="btn">
           <a href="https://bit.ly/raquelbennington" class="whastapp" target="_blank">
@@ -38,7 +42,31 @@
     </header>
 
     <!-- Sobre -->
+    <section class="about">
+        <div class="about--slot-start">  
+        </div>
+        <div class="about-box">
+            <div class="about--content">
+                <div class="about-text">
+                    <h3 class="about-title">Conservas Libertárias...</h3>
+                    <p class="about-paragraph">As Conservas Libertárias nascem de encontros entre amigas onde se 
+                        discutiam assuntos dos mais variados temas, digam se, de passagem, todos bem polêmicos. 
+                        O ponto de encontro eram as cozinhas de onde saiam deliciosidades que serviam de acompanhamento
+                        para a boa prosa. Com o intuito de alimentar outras conversas com seus temperos e bruxarias 
+                        (mais que carinhosamente falando), é criada em maio de 2014 a grife em potes nomeada intencionalmente
+                        de Libertárias. Para que tudo seja dito e esmiuçado com comidinhas sempre ao alcance sem que seja
+                        necessárias pausas para as boquinhas..</p>
+                </div>
+                <div class="about-image--wrapper">
+                    <img src="./image/potes.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="about--slot-end">  
+        </div>
 
+    </section>
+    
     <!-- Carrossel -->
 
     <section class="products__box">
@@ -134,7 +162,10 @@
           
     
         </ul>
-    </section>
+
+=======
+      </section>
+
     <!-- Receitas -->
 
     <section class="recipe">
@@ -305,6 +336,8 @@
         <div class="contact__box">
             <h2 class="contact__box_title">Entre em contato</h2>
             <div class="contact__box_form">
+
+
                 <form action="https://formspree.io/mdowaykl" method="POST">
                     <div class="contact__box_name-email">
                         <label class="contact__box_label label-name">
@@ -351,6 +384,7 @@
 
     <script src="scripts/jquery-3.4.1.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
+
 </body>
 
 </html>
