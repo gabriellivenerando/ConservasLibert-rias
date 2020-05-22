@@ -34,30 +34,24 @@ html, body {
     padding:0px;
 }
 
-.button__whastapp{
-    width: 100px;
-}
-
-/* .button{
-    background-color: green;
+.btn_whatsapp {
+    background-color: #01e675;
+    border: none;
     color: white;
-    border-radius: 5px;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    padding: 10px 24px;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    width: 200px;
+    transition-duration: 0.4s;
+  } 
+  
+  .btn_whatsapp:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
 
 /* Header */
 
