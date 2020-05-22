@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
 }
+/* Header */
 
 .navbar{
     margin-bottom: 10px;
@@ -54,7 +55,6 @@ body {
     color: white;
   }
 
-/* Header */
 
 /* Sobre */
 .about--slot-start{
@@ -419,6 +419,10 @@ ul{
     height: 150px;
 }
 
+label {
+    display: unset;
+}
+
 ::-webkit-input-placeholder {
     color: #FFFFFF;
     font-size: 18px;
@@ -463,6 +467,7 @@ hr {
 /* Footer */
 
 .footer {
+   background-color:  rgba(143, 18, 22, 0.05);
     font-size: 14px;
     line-height: 18px;
     height: 200px;
