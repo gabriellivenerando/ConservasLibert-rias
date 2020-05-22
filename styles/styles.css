@@ -1,6 +1,7 @@
 /* Document */
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -75,6 +76,392 @@ html, body {
 
 /* Carrossel */
 
+ul{
+    list-style: none;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .products__box{
+    flex: 1 1 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 68px;
+  }
+  
+  .title__box{
+    font-family: 'Lobster', cursive;
+    margin: auto;
+  
+  }
+  
+  .products__list{
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap; 
+    padding-bottom: 30px;
+  }
+  
+  .list__img{
+    text-align: center;
+    display: inline-block;
+    justify-content: space-between;
+    border: 1px solid #C4C4C4;
+    height: 440px;
+    width: 300px;
+    margin-right: 44px;
+    cursor: pointer;
+  }
+  
+  .img__products{
+    max-height:100%;
+    max-width: 100%;
+  }
+  
+  /* minha parte */
+  
+  .titulo{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+  }
+  
+  button{
+    background-color: #00672F;
+    width: 184px;
+    height: 56px;
+    border-radius: 5%;
+    border: 1px solid #00672F;
+    color: #FFFF;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+  }
+  
+  
+  /* 
+  .article-container-team-lista::-webkit-scrollbar-thumb{
+    background: var(--color-header);
+    border-left: 4px solid var(--color-header);
+    border-right: 4px solid var(--color-header);
+  } */
+  
+  /* .article-container-team-lista::-webkit-scrollbar{
+    width: 18px;
+  } */
+  
+  .products__list::-webkit-scrollbar-track{
+    /* background: #faf6ed; */
+    background: red;
+  }
+  
+  @media screen and (min-width: 700px){
+    
+  }
+  
+  
 /* Receitas */
+.recipe {
+    background-color: rgba(143, 18, 22, 0.05);
+    padding: 20px;
+}
+
+.recipe__title {
+    font-family: "Lobster", cursive;
+    font-size: 32px;
+    line-height: 40px;
+    color: #8F1216;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 36px;
+}
+.recipe__title-modal{
+    font-family: "Lobster", cursive;
+    font-size: 30x;
+    line-height: 40px;
+    color: #8F1216;
+    text-align: center;
+    padding-top: 35px;
+    
+}
+
+.recipe__box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 90px;
+
+}
+
+
+.recipe__box_un {
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+
+
+}
+
+.recipe__box_img {
+    width: 100%;
+    
+    
+}
+
+.recipe__box_paragraph {
+    padding-top: 20px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000000;
+}
+.bg_color_recipe{
+    background: #00672F;
+}
+.button {
+    background: #00672F;
+    border: 1px solid #65A381;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Lobster;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    ;
+
+}
+
+.meuDeus {
+    margin: 31%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.mask {
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    /* usa rgba prq cor */
+    background: rgba(0, 0, 0, 0.4)
+    
+    
+}
+
+
+/*desktop*/
+@media screen and (min-width: 700px) {
+
+    .recipe__title {
+        font-size: 40px;
+        line-height: 50px;
+        padding-top: 35px;
+        padding-bottom: 36px;
+    }
+
+    .recipe__box {
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .recipe__box_un {
+        width: 30%;
+    }
+}
+
+/* Contato */
+
+.bg-top {
+    height: 24px;
+    width: 100%;
+    background-image: url(../img/top-green.svg);
+}
+
+.bg-bottom {
+    height: 24px;
+    width: 100%;
+    background-image: url(../img/top-green.svg);
+    transform: rotate(180deg);
+
+}
+
+
+.contact__border {
+    width: 100%;
+}
+
+.contact__box {
+    text-align: center;
+    background-color: #00672F;
+    padding: 15px 0;
+}
+
+.contact__box_title {
+    font-size: 36px;
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+    /* margin-top: 70px; */
+}
+
+.contact__box_form {
+    margin: 20px;
+}
+
+.contact__box_name-email {
+    /* width: 100%; */
+}
+
+#name {
+    margin-right: 20px;
+}
+
+.contact__box_form input {
+    background: #3F9566;
+    opacity: 0.5;
+    border-radius: 4px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px 0;
+
+}
+
+.contact__box_form textarea {
+    background: #3F9566;
+    opacity: 0.5;
+    border-radius: 4px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px 0;
+    height: 150px;
+}
+
+::-webkit-input-placeholder {
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+input ::-webkit-progress-inner-value {
+    color: #FFFFFF;
+}
+
+.contact__box_button {
+    text-align: center;
+}
+
+.contact__box_button-send {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    line-height: 25px;
+    color: #3F9566;
+    justify-content: end;
+}
+
+hr {
+    width: 100%;
+    margin-top: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.contact__box_redes-sociais {
+    padding: 20px;
+}
+
+.contact__box_redes-sociais-links {
+    margin-right: 20px;
+}
+
 
 /* Footer */
+
+.footer {
+    font-size: 14px;
+    line-height: 18px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Media Screen para Celular */
+@media screen and (min-width: 700px) {
+
+    .contact__box_form {
+        margin: 20px 150px;
+    }
+
+    .contact__box_name-email {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .contact__box_label {
+        width: 550px;
+
+    }
+     .label-name {
+        margin-right: 20px;
+    }
+
+    /* .contact__box_form input,
+    textarea {
+        width: 100%;
+    } */
+
+    .contact__box_button {
+        text-align: end;
+    }
+
+    .contact__box_button-send {
+        width: 120px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        padding: 10px 20px;
+        font-family: 'Lobster', cursive;
+        font-size: 20px;
+        line-height: 25px;
+        color: #3F9566;
+    }
+
+    .contact__box_title {
+        font-size: 40px;
+    }
+}
