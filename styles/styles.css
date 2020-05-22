@@ -4,8 +4,55 @@ html,
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
 }
+
+.navbar{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.navbar__menu{
+    display: flex;
+    font-size: 10px;
+    color: white;
+    list-style: none;
+    padding: 0px;
+    margin: auto;
+}
+
+.background-header{
+    background-image: url(../img/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin: 0 auto;
+    padding:10px;
+}
+
+.logo{
+    text-align:center;
+    margin: 0 auto;
+    padding:0px;
+}
+
+.btn_whatsapp {
+    background-color: #01e675;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    width: 200px;
+    transition-duration: 0.4s;
+  } 
+  
+  .btn_whatsapp:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
 
 /* Header */
 
@@ -29,142 +76,250 @@ body {
 
 /* Carrossel */
 
+ul{
+    list-style: none;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .products__box{
+    flex: 1 1 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 68px;
+    
+  }
+  
+  .title__box{
+    margin: auto;
+    
+  }
+  
+  .title__box-desktop{
+    display: none;
+  }
+  
+  .products__title{
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
+    margin: auto;
+    width: 67%;
+    text-align: center;
+  }
+
+  .products__subtitle{
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .products__list{
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap; 
+    padding-bottom: 30px;
+  }
+  
+  .list__img{
+    text-align: center;
+    display: inline-block;
+    justify-content: space-between;
+    border: 1px solid #C4C4C4;
+    height: 440px;
+    width: 335px;
+    margin-right: 44px;
+    cursor: pointer;
+  }
+  
+  .img__products{
+    max-height:100%;
+    max-width: 100%;
+  }
+  
+  .list__productsname{
+    font-weight: bold;
+  }
+  
+  .titulo{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+  }
+  
+  .list__btn{
+    background-color: #00672F;
+    width: 184px;
+    height: 56px;
+    border-radius: 5%;
+    border: 1px solid #00672F;
+    color: #FFFF;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+  }
+  
+  
+  .products__list::-webkit-scrollbar-thumb{
+    background: var(--color-header);
+    border-left: 4px solid var(--color-header);
+    border-right: 4px solid var(--color-header);
+  } 
+  
+  .products__list::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+  @media screen and (min-width: 700px){
+    .title__box-desktop{
+      display:flex;
+      flex-direction: column;
+      margin: auto;
+      margin-bottom: 38px;
+    }
+
+    .title__box{
+      display:none;
+    }
+
+    .products__title-desktop{
+      margin: 0;
+      font-size: 32px;
+      font-family: 'Lobster', cursive;
+    }
+
+    .products__subtitle-desktop{
+      width: 247px;
+      margin: auto;
+    }
+  }
+  
 /* Receitas */
 
-/* Contato */
-
-.contact {
-    background-color: #00672F;
+.recipe {
+    background-color: rgba(143, 18, 22, 0.05);
+    padding: 20px;
 }
 
-.contact__border {
-    width: 100%;
-}
-
-.contact__box {
+.recipe__title {
+    font-family: "Lobster", cursive;
+    font-size: 32px;
+    line-height: 40px;
+    color: #8F1216;
     text-align: center;
+    padding-top: 35px;
+    padding-bottom: 36px;
+}
+.recipe__title-modal{
+    font-family: "Lobster", cursive;
+    font-size: 30x;
+    line-height: 40px;
+    color: #8F1216;
+    text-align: center;
+    padding-top: 35px;
 }
 
-.contact__box_title {
-    font-size: 36px;
-    font-family: 'Lobster', cursive;
-    color: #ffffff;
-    margin-top: 70px;
+.recipe__box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 90px;
 }
 
-.contact__box_form {
-    margin: 20px;
-}
 
-#name {
-    margin-right: 20px;
-}
-
-.contact__box_form input {
-    background: #3F9566;
-    opacity: 0.5;
+.recipe__box_un {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
     border-radius: 4px;
-    width: 100%;
-    margin: 10px 0;
-    padding: 20px 0;
-
+    margin-bottom: 10px;
+    align-items: center;
 }
 
-.contact__box_form textarea {
-    background: #3F9566;
-    opacity: 0.5;
+.recipe__box_img {
+    width: 100%;
+}
+
+.recipe__box_paragraph {
+    padding-top: 20px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000000;
+}
+
+.recipe__box_paragraph_modal {
+    padding-top: 20px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000000;
+}
+
+.bg_color_recipe{
+    background: #00672F;
+}
+
+.button_recipe {
+    background: #00672F;
+    border: 1px solid #65A381;
+    box-sizing: border-box;
     border-radius: 4px;
-    width: 100%;
-    margin: 10px 0;
-    padding: 20px 0;
-    height: 150px;
-}
-
-::-webkit-input-placeholder {
+    font-family: Lobster;
+    font-size: 18px;
+    line-height: 22px;
     color: #FFFFFF;
 }
 
-.contact__box_button {
-    text-align: center;
+.button__recipe_position {
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
-.contact__box_button-send {
-    width: 100%;
-    background: #FFFFFF;
-    border-radius: 4px;
-    padding: 10px 20px;
-    font-family: 'Lobster', cursive;
-    font-size: 20px;
-    line-height: 25px;
-    color: #3F9566;
+/*desktop*/
+
+@media screen and (min-width: 700px) {
+
+    .recipe__title {
+        font-size: 40px;
+        line-height: 50px;
+        padding-top: 35px;
+        padding-bottom: 36px;
+    }
+
+    .recipe__box {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .recipe__box_un {
+        width: 30%;
+    }
+
 }
-
-hr {
-    width: 100%;
-    margin-top: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.contact__box_redes-sociais {}
-
-.fab {
-    color: #00672F;
-    padding: 10px;
-    background-color: #FFFFFF;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
-.contact__box_redes-sociais-tiktok {
-    width: 30px;
-    background-color: #FFFFFF;
-    border-radius: 50%;
-    color: #00672F;
-}
-
 
 /* Footer */
-
-/* Media Screen para Celular */
-@media screen and (min-width: 600px) {
-
-    .contact__box_form {
-        margin: 20px 90px;
-    }
-
-    .contact__box_name-email {
-        display: flex;
-        width: 100%;
-    }
-
-    .contact__box_form input,
-    textarea {
-        width: 100%;
-    }
-
-    .contact__box_button {
-        text-align: end;
-    }
-
-    .contact__box_button-send {
-        width: 120px;
-        background: #FFFFFF;
-        border-radius: 4px;
-        padding: 10px 20px;
-        font-family: 'Lobster', cursive;
-        font-size: 20px;
-        line-height: 25px;
-        color: #3F9566;
-    }
-
-    .contact__box_title {
-        font-size: 40px;
-    }
-}
-
-/* Media Screen para Tablet */
-@media screen and (min-width: 1025px) {
-    .contact__box_form {
-        margin: 20px 250px;
-    }
-}

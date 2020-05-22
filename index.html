@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conservas</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="/styles/styles.css">
-    <script src="/scripts/scripts.js"></script>
-    <script src="https://kit.fontawesome.com/8c100b4e25.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
 </head>
 
 <body>
     <!-- Header -->
+    <header class="background-header"> 
+      <nav class="navbar">
+        <ul class="navbar__menu">
+            <li class="menu-item">SOBRE</li>
+            <li class="menu-item">NOSSOS PRODUTOS</li>
+            <li class="menu-item">RECEITAS</li>
+            <li class="menu-item">CONTATO</li>                
+            </li>
+        </ul>
+        <div class="btn">
+          <a href="https://bit.ly/raquelbennington" class="whastapp" target="_blank">
+            <button class="btn_whatsapp">PEÇA PELO WHASTAPP</button>
+          </a>
+        </div>
+    </nav>
+
+     <div class="logo">
+      <img src="img/logotipo.png" alt="Imagem do logotipo" width=100 height=100>
+     </div> 
+
+    </header>
 
     <!-- Sobre -->
     <section class="about">
@@ -35,41 +54,267 @@
     </section>
     
     <!-- Carrossel -->
+    
+    <section class="products__box" >
+        <div class="title__box">
+          <h2 class="products__title">Comida em conserva sem conservantes</h2>
+          <p class="products__subtitle">Conheça alguns dos nossos produtos</p>
+        </div>
+
+        <div class="title__box-desktop">
+          <h2 class="products__title-desktop">Comida em conserva sem conservantes</h2>
+          <p class="products__subtitle-desktop">Conheça alguns dos nossos produtos</p>
+        </div>
+        <ul class="products__list">
+            <li class="list__img">
+                <img class="img__products" src="img/pote.svg">
+                <p class="list__productsname">Berinjela com Shimeji Manteiga e Shoyo </p>
+                <p>Antepastos</p>
+                <button class="list__btn">Saiba mais</button>
+            </li>
+            <li class="list__img">
+                <img class="img__products" src="img/pote.svg">
+                <p class="list__productsname">Abobrinha defumada com tomate seco seco</p>
+                <p>Antepastos</p>
+                <button class="list__btn">Saiba mais</button>
+            </li>
+            <li class="list__img">
+                <img class="img__products" src="img/pote.svg">
+                <p class="list__productsname">Geleia de rosas com gengibre</p>
+                <p>Geléia</p>
+                <button class="list__btn">Saiba mais</button>
+            </li>
+            <li class="list__img">
+                <img class="img__products" src="img/pote.svg">
+                <p class="list__productsname">Geleia de abacaxi com hortelã e pimenta</p>
+                <p>Geléia</p>
+                <button class="list__btn">Saiba mais</button>
+            </li>
+            <li class="list__img">
+                <img class="img__products" src="img/pote.svg">
+                <p class="list__productsname">Pimenta dedo de moça assada</p>
+                <p>Pimenta</p>
+                <button class="list__btn">Saiba mais</button>
+            </li>
+            <li class="list__img">
+                <img class="img__products" src="img/pote.svg">
+                <p class="list__productsname">Pimenta de cheiro com chimichuri </p>
+                <p>Pimenta</p>
+                <button class="list__btn">Saiba mais</button>
+            </li>
+    
+            <li class="list__img">
+              <img class="img__products" src="img/pote.svg">
+              <p class="list__productsname">Berinjela com tomate seco </p>
+              <p>Vegano</p>
+              <button class="list__btn">Saiba mais</button>
+          </li>
+    
+            <li class="list__img">
+              <img class="img__products" src="img/pote.svg">
+              <p class="list__productsname">Alho poró</p>
+              <p>Vegano</p>
+              <button class="list__btn">Saiba mais</button>
+          </li>
+    
+            <li class="list__img">
+              <img class="img__products" src="img/pote.svg">
+              <p class="list__productsname">Pepino</p>
+              <p>Picles</p>
+              <button class="list__btn">Saiba mais</button>
+          </li>
+    
+            <li class="list__img">
+              <img class="img__products" src="img/pote.svg">
+              <p class="list__productsname">Alho na pimenta de cheiro doce</p>
+              <p>Picles</p>
+              <button class="list__btn">Saiba mais</button>
+          </li>
+    
+    
+            <li class="list__img">
+              <img class="img__products" src="img/pote.svg">
+              <p class="list__productsname">Habanero chocolate</p>
+              <p>Spray de pimenta comestível</p>
+              <button class="list__btn">Saiba mais</button>
+          </li>
+    
+            <li class="list__img">
+              <img class="img__products" src="img/pote.svg">
+              <p class="list__productsname">Pimenta de cheiro</p>
+              <p>Spray de pimenta comestível</p>
+              <button class="list__btn">Saiba mais</button>
+          </li>
+          
+    
+        </ul>
+      </section>
 
     <!-- Receitas -->
 
-    <!-- Contato -->
+    <section class="recipe">
+        <h3 class="recipe__title ">Receitas inspiradoras</h3>
+        <div class="recipe__box">
 
-    <section id="contact" class="contact">
-        <img class="contact__border" src="img/top-green.svg" alt="">
-        <div class="contact__box">
-            <h2 class="contact__box_title">Entre em contato</h2>
-
-            <div class="contact__box_form">
-                <div class="contact__box_name-email">
-                    <input type="text" id="name" placeholder="Nome">
-                    <input type="email" placeholder="Email">
-                </div>
-                <input type="text" placeholder="Assunto">
-                <textarea name="message" cols="50" rows="50" placeholder="Mensagem"></textarea>
-
-                <div class="contact__box_button">
-                    <button class="contact__box_button-send">Enviar</button>
-                </div>
-                <hr>
+            <div class="recipe__box_un -1">
+                <img class="recipe__box_img -1" src="img/risoto.jpeg">
+                <p class="recipe__box_paragraph -1">Risoto de berinjela com shimeji, manteiga e shoyo</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn button_recipe button__recipe_position" data-toggle="modal"
+                    data-target="#recipe_1">Saiba mais </button>
             </div>
-
-            <h2 class="contact__box_title">Siga nas Redes Sociais</h2>
-            <div class="contact__box_redes-sociais">
-                <a href=""><i class="fab fa-facebook-f fa-lg"></i></a>
-                <a href=""><i class="fab fa-instagram fa-lg"></i></a>
-                <a href=""><i class="fab fa-youtube fa-lg"></i></a>
-                <a href=""><i class="fab fa-whatsapp fa-lg"></i></a>
+            <div class="recipe__box_un 2">
+                <img class="recipe__box_img -2" src="img/parpadelle.jpeg">
+                <p class="recipe__box_paragraph -2">Parpadelle com abobrinha defumada com tomate seco</p>
+                
+                <!-- Button trigger modal -->
+                <button type="button" class="btn button_recipe button__recipe_position" data-toggle="modal"
+                    data-target="#recipe_2">Saiba mais </button>
             </div>
-
+            <div class="recipe__box_un 3">
+                <img class="recipe__box_img -3" src="img/dadinho.jpeg">
+                <p class="recipe__box_paragraph -3">Dadinho de tapioca com geleia de rosas e gengibre</p>
+             
+                <!-- Button trigger modal -->
+                <button type="button" class="btn button_recipe button__recipe_position" data-toggle="modal"
+                data-target="#recipe_3">Saiba mais </button>
+            </div>
         </div>
-        <img class="contact__border" src="img/bottom-green.svg" alt="">
+
+        <!-- Modal 1-->
+        <div class=" modal fade  " id="recipe_1" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class=" modal-dialog " role="document">
+                <div class="modal-content  ">
+                    <div class="modal-header  bg_color_recipe  ">
+
+                        <button type="button" class="close text-white " data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body px-4"></div>
+                    <img src="img/risoto.jpeg " class="modal_img_recipe card-img-top imagem-card px-4 mt-2 ">
+                    <h3 class="modal-title recipe__title-modal" id="exampleModalLongTitle">Risoto de berinjela com
+                        shimeji,
+                        manteiga e shoyo</h3>
+                    <div class="recipe__box_paragraph_modal  ">
+                        <h4>Ingredientes </h4>
+                        <ul class="px-3 b-4">• 1 vidro de 200g de berinjela com shimeji, manteiga e shoyo das Conservas Libertárias <br>
+                            • 1 cebola picada<br>
+                            • 1 colher de sopa de alho socado/ralado ou picado<br>
+                            • 1 colher de sopa de azeite de oliva<br>
+                            • Vinho tinto 1/2 copo<br>
+                            • Cebolinha a gosto<br>
+                            • Sal a gosto<br>
+                            • 1/2 copo de molho de tomate das Conservas Libertárias<br>
+                            • 1 xícara de arroz arbóreo <br>
+                            • 2 xícaras de caldo de legumes.<br>
+                            • Queijo parmesão<br>
+                        </ul>
+
+                        <h3>Modo de preparo</h3>
+                        <ul>
+                            1. Frite a cebola e o alho, acrescente o arroz, deixe-o fritar um pouco e acrescente o molho
+                            de tomate (sem pele).<br>
+                            2. Acrescente o vinho tinto, deixe secar um pouquinho.<br>
+                            3. Coloque a berinjela com shimeji e shoyo e vá colocando a água para cozinhar o arroz.
+                            Quando estiver pronto, desligue e acrescente o queijo parmesão.
+                            (para uma melhor finalização rale o queijo parmesão na hora e preserve a deliciosidade)
+                        </ul>
+
+                    </div>
+                    
+                </div>
+                <div class="modal-footer bg_color_recipe ">
+                        
+
+                </div>
+            </div>
+        </div>
+        </div>
+    <!-- Modal 2-->
+
+    <div class=" modal fade " id="recipe_2" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class=" modal-dialog " role="document">
+                <div class="modal-content  ">
+                    <div class="modal-header bg_color_recipe ">
+
+                        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body px-4"></div>
+                    <img src="img/parpadelle.jpeg" class="card-img-top imagem-card px-4 mt-2">
+                    <h3 class="modal-title recipe__title-modal" id="exampleModalLongTitle">Parpadelle com abobrinha defumada com tomate seco</h3>
+                    <div class="recipe__box_paragraph_modal ">
+                        <h4>Ingredientes </h4>
+                        <ul>• 1 colher de manteiga <br>
+                            • 500g de massa tipo Pappardelle<br>
+                            • 1 vidro de 200g de antepasto de abobrinha defumada com tomate seco<br>
+                            • Queijo ralado de sua preferencia a gosto<br>
+                            • Sal para o cozimento do macarrão<br>
+                            
+                        </ul>
+
+                        <h3>Modo de preparo</h3>
+                        <ul class="px-3">
+                            1. Cozinhe o papardelle em 1l e meio de sal.<br>
+                            2. Em uma panela aqueça a manteiga, o antepasto de abobrinha defumada com tomate seco e adicione ao macarrão já cozido e escorrido.<br>
+                            3. Rale seu queijo de preferencia e está pronto para ser servido.<br>
+                        </ul>
+
+                    </div>
+                    <div class="modal-footer bg_color_recipe "></div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+         <!-- Modal 3-->
+
+    <div class=" modal fade " id="recipe_3" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class=" modal-dialog " role="document">
+        <div class="modal-content  ">
+            <div class="modal-header bg_color_recipe  ">
+
+                <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body px-4"></div>
+            <img src="img/dadinho.jpeg" class="card-img-top imagem-card px-4 mt-2">
+            <h3 class="modal-title recipe__title-modal" id="exampleModalLongTitle">Dadinho de tapioca com geleia de rosas e gengibre</h3>
+            <div class="recipe__box_paragraph_modal ">
+                <h4>Ingredientes </h4>
+                <ul class="px-3">• 250 g de tapioca granulada <br>
+                    • 300 g queijo coalho ralado<br>
+                    • 500 ml leite morno<br>
+                    • Sal e Pimenta a gosto<br>                    
+                </ul>
+
+                <h3>Modo de preparo</h3>
+                <ul>
+                    1. Misture todos os ingredientes e unte a forma com manteiga.<br>
+                    2. Coloque a mistura a uma espessura de 2 cm e leve à geladeira por 3 horas.<br>
+                    3. Depois, asse a 180 graus por 10 minutos.<br>
+                    4. Servir com geleia de rosa e gengibre das Conservas Libertárias.<br>
+                </ul>
+
+            </div>
+            <div class="modal-footer bg_color_recipe "></div>
+        </div>
+
+    </div>
+</div>
+</div>
+
     </section>
+
+    <script src="scripts/jquery-3.4.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
 
     <!-- Footer -->
 
