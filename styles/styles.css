@@ -27,12 +27,29 @@ ul{
     display: flex;
     flex-wrap: wrap;
     margin-top: 68px;
+    
   }
   
   .title__box{
-    font-family: 'Lobster', cursive;
     margin: auto;
+    
+  }
   
+  .title__box-desktop{
+    display: none;
+  }
+  
+  .products__title{
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
+    margin: auto;
+    width: 67%;
+    text-align: center;
+  }
+
+  .products__subtitle{
+    text-align: center;
+    font-size: 20px;
   }
   
   .products__list{
@@ -48,7 +65,7 @@ ul{
     justify-content: space-between;
     border: 1px solid #C4C4C4;
     height: 440px;
-    width: 300px;
+    width: 335px;
     margin-right: 44px;
     cursor: pointer;
   }
@@ -58,14 +75,16 @@ ul{
     max-width: 100%;
   }
   
-  /* minha parte */
+  .list__productsname{
+    font-weight: bold;
+  }
   
   .titulo{
     font-family: 'Lobster', cursive;
     text-align: center;
   }
   
-  button{
+  .list__btn{
     background-color: #00672F;
     width: 184px;
     height: 56px;
@@ -77,24 +96,38 @@ ul{
   }
   
   
-  /* 
-  .article-container-team-lista::-webkit-scrollbar-thumb{
+  .products__list::-webkit-scrollbar-thumb{
     background: var(--color-header);
     border-left: 4px solid var(--color-header);
     border-right: 4px solid var(--color-header);
-  } */
+  } 
   
-  /* .article-container-team-lista::-webkit-scrollbar{
-    width: 18px;
-  } */
-  
-  .products__list::-webkit-scrollbar-track{
-    /* background: #faf6ed; */
-    background: red;
+  .products__list::-webkit-scrollbar-thumb:hover {
+    background: #555; 
   }
   
   @media screen and (min-width: 700px){
-    
+    .title__box-desktop{
+      display:flex;
+      flex-direction: column;
+      margin: auto;
+      margin-bottom: 38px;
+    }
+
+    .title__box{
+      display:none;
+    }
+
+    .products__title-desktop{
+      margin: 0;
+      font-size: 32px;
+      font-family: 'Lobster', cursive;
+    }
+
+    .products__subtitle-desktop{
+      width: 247px;
+      margin: auto;
+    }
   }
   
   
