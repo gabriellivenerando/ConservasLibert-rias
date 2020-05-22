@@ -375,6 +375,10 @@ ul{
     height: 150px;
 }
 
+label {
+    display: unset;
+}
+
 ::-webkit-input-placeholder {
     color: #FFFFFF;
     font-size: 18px;
