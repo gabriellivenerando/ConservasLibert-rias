@@ -30,7 +30,7 @@
                 <img class="recipe__box_img -1" src="img/risoto.jpeg">
                 <p class="recipe__box_paragraph -1">Risoto de berinjela com shimeji, manteiga e shoyo</p>
                 <!-- Button trigger modal -->
-                <button type="button" class="btn button meuDeus" data-toggle="modal"
+                <button type="button" class="btn button_recipe button__recipe_position" data-toggle="modal"
                     data-target="#recipe_1">Saiba mais </button>
             </div>
             <div class="recipe__box_un 2">
@@ -38,7 +38,7 @@
                 <p class="recipe__box_paragraph -2">Parpadelle com abobrinha defumada com tomate seco</p>
                 
                 <!-- Button trigger modal -->
-                <button type="button" class="btn button meuDeus" data-toggle="modal"
+                <button type="button" class="btn button_recipe button__recipe_position" data-toggle="modal"
                     data-target="#recipe_2">Saiba mais </button>
             </div>
             <div class="recipe__box_un 3">
@@ -46,7 +46,7 @@
                 <p class="recipe__box_paragraph -3">Dadinho de tapioca com geleia de rosas e gengibre</p>
              
                 <!-- Button trigger modal -->
-                <button type="button" class="btn button meuDeus" data-toggle="modal"
+                <button type="button" class="btn button_recipe button__recipe_position" data-toggle="modal"
                 data-target="#recipe_3">Saiba mais </button>
             </div>
         </div>
@@ -56,20 +56,20 @@
             aria-labelledby="exampleModalLongTitle" aria-hidden="true">
             <div class=" modal-dialog " role="document">
                 <div class="modal-content  ">
-                    <div class="modal-header text-white bg_color_recipe  ">
+                    <div class="modal-header  bg_color_recipe  ">
 
-                        <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+                        <button type="button" class="close text-white " data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body px-4"></div>
-                    <img src="img/risoto.jpeg" class="card-img-top imagem-card px-4 mt-4">
+                    <img src="img/risoto.jpeg " class="card-img-top imagem-card px-4 mt-2">
                     <h3 class="modal-title recipe__title-modal" id="exampleModalLongTitle">Risoto de berinjela com
                         shimeji,
                         manteiga e shoyo</h3>
-                    <div class="recipe__box_paragraph ">
-                        <h3>Ingredientes </h3>
-                        <ul>• 1 vidro de 200g de berinjela com shimeji, manteiga e shoyo das Conservas Libertárias <br>
+                    <div class="recipe__box_paragraph_modal  ">
+                        <h4>Ingredientes </h4>
+                        <ul class="px-3 b-4">• 1 vidro de 200g de berinjela com shimeji, manteiga e shoyo das Conservas Libertárias <br>
                             • 1 cebola picada<br>
                             • 1 colher de sopa de alho socado/ralado ou picado<br>
                             • 1 colher de sopa de azeite de oliva<br>
@@ -95,7 +95,10 @@
                     </div>
                     
                 </div>
+                <div class="modal-footer bg_color_recipe ">
+                        
 
+                </div>
             </div>
         </div>
         </div>
@@ -105,17 +108,17 @@
             aria-labelledby="exampleModalLongTitle" aria-hidden="true">
             <div class=" modal-dialog " role="document">
                 <div class="modal-content  ">
-                    <div class="modal-header  ">
+                    <div class="modal-header bg_color_recipe ">
 
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body px-4"></div>
-                    <img src="img/parpadelle.jpeg" class="card-img-top imagem-card px-4 mt-4">
+                    <img src="img/parpadelle.jpeg" class="card-img-top imagem-card px-4 mt-2">
                     <h3 class="modal-title recipe__title-modal" id="exampleModalLongTitle">Parpadelle com abobrinha defumada com tomate seco</h3>
-                    <div class="recipe__box_paragraph">
-                        <h3>Ingredientes </h3>
+                    <div class="recipe__box_paragraph_modal ">
+                        <h4>Ingredientes </h4>
                         <ul>• 1 colher de manteiga <br>
                             • 500g de massa tipo Pappardelle<br>
                             • 1 vidro de 200g de antepasto de abobrinha defumada com tomate seco<br>
@@ -125,17 +128,14 @@
                         </ul>
 
                         <h3>Modo de preparo</h3>
-                        <ul>
+                        <ul class="px-3">
                             1. Cozinhe o papardelle em 1l e meio de sal.<br>
                             2. Em uma panela aqueça a manteiga, o antepasto de abobrinha defumada com tomate seco e adicione ao macarrão já cozido e escorrido.<br>
                             3. Rale seu queijo de preferencia e está pronto para ser servido.<br>
                         </ul>
 
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class=" px-4 btn  button meuDeus" data-dismiss="modal">Voltar</button>
-
-                    </div>
+                    <div class="modal-footer bg_color_recipe "></div>
                 </div>
 
             </div>
@@ -148,18 +148,18 @@
     aria-labelledby="exampleModalLongTitle" aria-hidden="true">
     <div class=" modal-dialog " role="document">
         <div class="modal-content  ">
-            <div class="modal-header  ">
+            <div class="modal-header bg_color_recipe  ">
 
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body px-4"></div>
-            <img src="img/dadinho.jpeg" class="card-img-top imagem-card px-4 mt-4">
+            <img src="img/dadinho.jpeg" class="card-img-top imagem-card px-4 mt-2">
             <h3 class="modal-title recipe__title-modal" id="exampleModalLongTitle">Dadinho de tapioca com geleia de rosas e gengibre</h3>
-            <div class="recipe__box_paragraph">
-                <h3>Ingredientes </h3>
-                <ul>• 250 g de tapioca granulada <br>
+            <div class="recipe__box_paragraph_modal ">
+                <h4>Ingredientes </h4>
+                <ul class="px-3">• 250 g de tapioca granulada <br>
                     • 300 g queijo coalho ralado<br>
                     • 500 ml leite morno<br>
                     • Sal e Pimenta a gosto<br>                    
@@ -174,10 +174,7 @@
                 </ul>
 
             </div>
-            <div class="modal-footer">
-                <button type="button" class=" px-4 btn  button meuDeus" data-dismiss="modal">Voltar</button>
-
-            </div>
+            <div class="modal-footer bg_color_recipe "></div>
         </div>
 
     </div>
