@@ -109,13 +109,17 @@ body {
 }
 
 /* Sobre */
+.about {
+    margin-top: -30px;
+}
+
 .about--slot-start{
     background: url("../image/about-start.png");
     height: 24px;
     width: 100%;
 }
 
-.about-box{
+.about-box {
     background: url("../image/about-center.png");
     padding: 140px 0;
 }
@@ -124,8 +128,8 @@ body {
     display: flex;
     margin: 0 auto;
     max-width: 1152px;
-    padding: 10px;
-    width: 100%;
+    padding: 20px;
+    width: calc(100% - 40px);
 }
 
 .about-text {
@@ -140,14 +144,23 @@ body {
 }
 
 .about-paragraph {
+    font-family: "Source Sans", sans-serif;
     font-size: 18px;
     line-height: 30px;
+    padding-right: 30px;
 }
 
 .about-image--wrapper {
+    align-items: flex-start;
     display: flex;
     flex: 1;
     justify-content: flex-end;
+}
+
+.about-image {
+    max-width: 496px;
+    object-fit: contain;
+    width: 100%;
 }
 
 .about--slot-end{
@@ -156,121 +169,132 @@ body {
     width: 100%;
 }
 
+@media (max-width: 1150px) {
+    .about-text {
+        flex: 1;
+    }    
+}
+
+@media (max-width: 768px) {
+    .about-box {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .about--content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-image--wrapper {
+        justify-content: flex-start;
+        padding-bottom: 40px;
+    }
+} 
+
 /* Carrossel */
 
-ul{
+    ul{
     list-style: none;
-  }
-  
-  * {
+    }
+
+    * {
     box-sizing: border-box;
-  }
-  
-  .products__box{
+    }
+
+    .products__box{
     flex: 1 1 500px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 68px;
-    
-  }
-  
-  .title__box{
+    margin-bottom: 145px;
+    }
+
+    .title__box{
     margin: auto;
-    
-  }
-  
-  .title__box-desktop{
-    display: none;
-  }
-  
-  .products__title{
+    }
+
+    .products__title{
     font-family: 'Lobster', cursive;
     font-size: 32px;
     margin: auto;
-    width: 67%;
+    width: 70%;
     text-align: center;
-  }
+    }
 
-  .products__subtitle{
+    .products__subtitle{
     text-align: center;
     font-size: 20px;
-  }
-  
-  .products__list{
-    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    }
+
+    .title__box-desktop{
+    display: none;
+    }
+
+    .products__list{
+    max-width: 86%;
     overflow-x: auto;
     white-space: nowrap; 
     padding-bottom: 30px;
-  }
-  
-  .list__img{
+    margin: auto; 
+    }
+
+    .list__img{
     text-align: center;
     display: inline-block;
     justify-content: space-between;
     border: 1px solid #C4C4C4;
-    height: 440px;
-    width: 335px;
+    height: 350px;
+    width: 313px;
     margin-right: 44px;
     cursor: pointer;
-  }
-  
-  .img__products{
-    max-height:100%;
+    }
+
+    .img__products{
+    max-height: 189px;
     max-width: 100%;
-  }
-  
-  .list__productsname{
+    }
+
+    .list__productsname{
     font-weight: bold;
-  }
-  
-  .titulo{
-    font-family: 'Lobster', cursive;
-    text-align: center;
-  }
-  
-  .list__btn{
-    background-color: #00672F;
-    width: 184px;
-    height: 56px;
-    border-radius: 5%;
-    border: 1px solid #00672F;
-    color: #FFFF;
-    font-size: 20px;
-    font-family: 'Lobster', cursive;
-  }
-  
-  
-  .products__list::-webkit-scrollbar-thumb{
-    background: var(--color-header);
-    border-left: 4px solid var(--color-header);
-    border-right: 4px solid var(--color-header);
-  } 
-  
-  .products__list::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
-  
-  @media screen and (min-width: 700px){
+    }
+
+    .list__btn{
+        background-color: #00672F;
+        width: 184px;
+        height: 56px;
+        border-radius: 5%;
+        border: 1px solid #00672F;
+        color: #FFFF;
+        font-size: 20px;
+        font-family: 'Lobster', cursive;
+    }
+    
+    @media screen and (min-width: 700px){
     .title__box-desktop{
-      display:flex;
-      flex-direction: column;
-      margin: auto;
-      margin-bottom: 38px;
+        display:flex;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 38px;
     }
 
     .title__box{
-      display:none;
+        display:none;
     }
 
     .products__title-desktop{
-      margin: 0;
-      font-size: 32px;
-      font-family: 'Lobster', cursive;
+        margin: 0;
+        font-size: 32px;
+        font-family: 'Lobster', cursive;
     }
 
     .products__subtitle-desktop{
-      width: 247px;
-      margin: auto;
+        width: 351px;
+        margin: auto;
+        font-size: 20px;
+        
     }
   }
   
