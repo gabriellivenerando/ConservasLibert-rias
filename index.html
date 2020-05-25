@@ -13,35 +13,38 @@
 
 <body>
     <!-- Header -->
-    <header class="background-header"> 
-      <nav class="navbar">
-        <ul class="navbar__menu">
-            <li class="navbar__menu_item">
-                <a class="navbar__menu_item-link" href="#">Sobre</a>
-              </li>
-              <li class="navbar__menu_item">
-                <a class="navbar__menu_item-link" href="#">Nossos Produtos</a>
-              </li>
-              <li class="navbar__menu_item">
-                <a class="navbar__menu_item-link" href="#">Receitas</a>
-              </li>
-              <li class="navbar__menu_item">
-                <a class="navbar__menu_item-link" href="#">Contatos</a>
-              </li>  
-        </ul>
-        <div class="btn">
-          <a href="https://bit.ly/raquelbennington" class="whastapp" target="_blank">
-            <button class="btn_whatsapp">PEÇA PELO WHASTAPP</button>
-          </a>
-        </div>
-    </nav>
-
-        <div class="logo">
-            <img src="img/logotipo.png" alt="Imagem do logotipo" width=100 height=100>
-        </div>
-
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-nav">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between " id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#sobre">SOBRE</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#produtos">NOSSOS PRODUTOS</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#receitas">RECEITAS</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#contatos">CONTATOS</a>
+                </li>
+              </ul>
+              <div class="btn__desktop">
+                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511981612773" class="whastapp" target="_blank">
+                  <button class="btn_whatsapp">PEÇA PELO WHASTAPP</button>
+                </a>
+            </div>
+            </div>
+          </nav>
+          <div class="logo">
+            <img class="logo-responsivo" src="img/logotipo.png" alt="Imagem do logotipo" width=100 height=100>
+          </div>
     </header>
-
+  
     <!-- Sobre -->
     <section class="about">
         <div class="about--slot-start">  
