@@ -1,134 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conservas</title>
-
-    <script src="https://kit.fontawesome.com/8c100b4e25.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/styles.css">
-    <script src="scripts/scripts.js"></script>
 
 </head>
 
 <body>
     <!-- Header -->
-    <header class="background-header"> 
-      <nav class="navbar">
-        <ul class="navbar__menu">
-            <li class="menu-item">SOBRE</li>
-            <li class="menu-item">NOSSOS PRODUTOS</li>
-            <li class="menu-item">RECEITAS</li>
-            <li class="menu-item">CONTATO</li>                
-            </li>
-        </ul>
-        <div class="btn">
-          <a href="https://bit.ly/raquelbennington" class="whastapp" target="_blank">
-            <button class="btn_whatsapp">PEÇA PELO WHASTAPP</button>
-          </a>
-        </div>
-    </nav>
-
-     <div class="logo">
-      <img class="logo-resposive" src="img/logotipo.png" alt="Imagem do logotipo" width=100 height=100>
-     </div> 
-
+    <header >
+        
     </header>
-
+  
     <!-- Sobre -->
+    <section class="about">
+        <div class="about--slot-start">  
+        </div>
+        <div class="about-box">
+            <div class="about--content">
+                <div class="about-text">
+                    <h3 class="about-title">Conservas Libertárias...</h3>
+                    <p class="about-paragraph">As Conservas Libertárias nascem de encontros entre amigas onde se 
+                        discutiam assuntos dos mais variados temas, digam se, de passagem, todos bem polêmicos. 
+                        O ponto de encontro eram as cozinhas de onde saiam deliciosidades que serviam de acompanhamento
+                        para a boa prosa. Com o intuito de alimentar outras conversas com seus temperos e bruxarias 
+                        (mais que carinhosamente falando), é criada em maio de 2014 a grife em potes nomeada intencionalmente
+                        de Libertárias. Para que tudo seja dito e esmiuçado com comidinhas sempre ao alcance sem que seja
+                        necessárias pausas para as boquinhas..</p>
+                </div>
+                <div class="about-image--wrapper">
+                    <img src="./image/potes.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="about--slot-end">  
+        </div>
 
-    <!-- Carrossel -->
+    </section>
     
-    <section class="products__box" >
+    <!-- Carrossel -->
+
+    <section class="products__box">
         <div class="title__box">
-          <h2 class="products__title">Nossos produtos</h2>
+            <h2 class="products__title">Comida em conserva sem conservantes</h2>
+            <p class="products__subtitle">Conheça alguns dos nossos produtos</p>
+        </div>
+
+        <div class="title__box-desktop">
+            <h2 class="products__title-desktop">Comida em conserva sem conservantes</h2>
+            <p class="products__subtitle-desktop">Conheça alguns dos nossos produtos</p>
         </div>
         <ul class="products__list">
             <li class="list__img">
                 <img class="img__products" src="img/pote.svg">
-                <p>Berinjela com Shimeji Manteiga e Shoyo </p>
+                <p class="list__productsname">Berinjela com Shimeji Manteiga e Shoyo </p>
                 <p>Antepastos</p>
-                <button>Saiba mais</button>
+                <button class="list__btn">Saiba mais</button>
             </li>
             <li class="list__img">
                 <img class="img__products" src="img/pote.svg">
-                <p>Abobrinha defumada com tomate seco seco</p>
+                <p class="list__productsname">Abobrinha defumada com tomate seco seco</p>
                 <p>Antepastos</p>
-                <button>Saiba mais</button>
+                <button class="list__btn">Saiba mais</button>
             </li>
             <li class="list__img">
                 <img class="img__products" src="img/pote.svg">
-                <p>Geleia de rosas com gengibre</p>
+                <p class="list__productsname">Geleia de rosas com gengibre</p>
                 <p>Geléia</p>
-                <button>Saiba mais</button>
+                <button class="list__btn">Saiba mais</button>
             </li>
             <li class="list__img">
                 <img class="img__products" src="img/pote.svg">
-                <p>Geleia de abacaxi com hortelã e pimenta</p>
+                <p class="list__productsname">Geleia de abacaxi com hortelã e pimenta</p>
                 <p>Geléia</p>
-                <button>Saiba mais</button>
+                <button class="list__btn">Saiba mais</button>
             </li>
             <li class="list__img">
                 <img class="img__products" src="img/pote.svg">
-                <p>Pimenta dedo de moça assada</p>
+                <p class="list__productsname">Pimenta dedo de moça assada</p>
                 <p>Pimenta</p>
-                <button>Saiba mais</button>
+                <button class="list__btn">Saiba mais</button>
             </li>
             <li class="list__img">
                 <img class="img__products" src="img/pote.svg">
-                <p>Pimenta de cheiro com chimichuri </p>
+                <p class="list__productsname">Pimenta de cheiro com chimichuri </p>
                 <p>Pimenta</p>
-                <button>Saiba mais</button>
+                <button class="list__btn">Saiba mais</button>
             </li>
-    
+
             <li class="list__img">
-              <img class="img__products" src="img/pote.svg">
-              <p>Berinjela com tomate seco </p>
-              <p>Vegano</p>
-              <button>Saiba mais</button>
-          </li>
-    
+                <img class="img__products" src="img/pote.svg">
+                <p class="list__productsname">Berinjela com tomate seco </p>
+                <p>Vegano</p>
+                <button class="list__btn">Saiba mais</button>
+            </li>
+
             <li class="list__img">
-              <img class="img__products" src="img/pote.svg">
-              <p>Alho poró</p>
-              <p>Vegano</p>
-              <button>Saiba mais</button>
-          </li>
-    
+                <img class="img__products" src="img/pote.svg">
+                <p class="list__productsname">Alho poró</p>
+                <p>Vegano</p>
+                <button class="list__btn">Saiba mais</button>
+            </li>
+
             <li class="list__img">
-              <img class="img__products" src="img/pote.svg">
-              <p>Pepino</p>
-              <p>Picles</p>
-              <button>Saiba mais</button>
-          </li>
-    
+                <img class="img__products" src="img/pote.svg">
+                <p class="list__productsname">Pepino</p>
+                <p>Picles</p>
+                <button class="list__btn">Saiba mais</button>
+            </li>
+
             <li class="list__img">
-              <img class="img__products" src="img/pote.svg">
-              <p>Alho na pimenta de cheiro doce</p>
-              <p>Picles</p>
-              <button>Saiba mais</button>
-          </li>
-    
-    
+                <img class="img__products" src="img/pote.svg">
+                <p class="list__productsname">Alho na pimenta de cheiro doce</p>
+                <p>Picles</p>
+                <button class="list__btn">Saiba mais</button>
+            </li>
+
+
             <li class="list__img">
-              <img class="img__products" src="img/pote.svg">
-              <p>Habanero chocolate</p>
-              <p>Spray de pimenta comestível</p>
-              <button>Saiba mais</button>
-          </li>
-    
+                <img class="img__products" src="img/pote.svg">
+                <p class="list__productsname">Habanero chocolate</p>
+                <p>Spray de pimenta comestível</p>
+                <button class="list__btn">Saiba mais</button>
+            </li>
+
             <li class="list__img">
-              <img class="img__products" src="img/pote.svg">
-              <p>Pimenta de cheiro</p>
-              <p>Spray de pimenta comestível</p>
-              <button>Saiba mais</button>
-          </li>
-          
-    
+                <img class="img__products" src="img/pote.svg">
+                <p class="list__productsname">Pimenta de cheiro</p>
+                <p>Spray de pimenta comestível</p>
+                <button class="list__btn">Saiba mais</button>
+            </li>
+
+
         </ul>
+
+=======
       </section>
+
     <!-- Receitas -->
 
     <section class="recipe">
@@ -139,46 +152,47 @@
                 <img class="recipe__box_img -1" src="img/risoto.jpeg">
                 <p class="recipe__box_paragraph -1">Risoto de berinjela com shimeji, manteiga e shoyo</p>
                 <!-- Button trigger modal -->
-                <button type="button" class="btn button meuDeus" data-toggle="modal"
+                <button type="button" class="btn button_recipe button__recipe_position" data-toggle="modal"
                     data-target="#recipe_1">Saiba mais </button>
             </div>
             <div class="recipe__box_un 2">
                 <img class="recipe__box_img -2" src="img/parpadelle.jpeg">
                 <p class="recipe__box_paragraph -2">Parpadelle com abobrinha defumada com tomate seco</p>
-                
+
                 <!-- Button trigger modal -->
-                <button type="button" class="btn button meuDeus" data-toggle="modal"
+                <button type="button" class="btn button_recipe button__recipe_position" data-toggle="modal"
                     data-target="#recipe_2">Saiba mais </button>
             </div>
             <div class="recipe__box_un 3">
                 <img class="recipe__box_img -3" src="img/dadinho.jpeg">
                 <p class="recipe__box_paragraph -3">Dadinho de tapioca com geleia de rosas e gengibre</p>
-             
+
                 <!-- Button trigger modal -->
-                <button type="button" class="btn button meuDeus" data-toggle="modal"
-                data-target="#recipe_3">Saiba mais </button>
+                <button type="button" class="btn button_recipe button__recipe_position" data-toggle="modal"
+                    data-target="#recipe_3">Saiba mais </button>
             </div>
         </div>
 
         <!-- Modal 1-->
-        <div class=" modal fade " id="recipe_1" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class=" modal fade  " id="recipe_1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
             <div class=" modal-dialog " role="document">
                 <div class="modal-content  ">
-                    <div class="modal-header text-white bg_color_recipe  ">
+                    <div class="modal-header  bg_color_recipe  ">
 
-                        <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+                        <button type="button" class="close text-white " data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body px-4"></div>
-                    <img src="img/risoto.jpeg" class="card-img-top imagem-card px-4 mt-4">
+                    <img src="img/risoto.jpeg " class="modal_img_recipe card-img-top imagem-card px-4 mt-2 ">
                     <h3 class="modal-title recipe__title-modal" id="exampleModalLongTitle">Risoto de berinjela com
                         shimeji,
                         manteiga e shoyo</h3>
-                    <div class="recipe__box_paragraph ">
-                        <h3>Ingredientes </h3>
-                        <ul>• 1 vidro de 200g de berinjela com shimeji, manteiga e shoyo das Conservas Libertárias <br>
+                    <div class="recipe__box_paragraph_modal  ">
+                        <h4>Ingredientes </h4>
+                        <ul class="px-3 b-4">• 1 vidro de 200g de berinjela com shimeji, manteiga e shoyo das Conservas
+                            Libertárias <br>
                             • 1 cebola picada<br>
                             • 1 colher de sopa de alho socado/ralado ou picado<br>
                             • 1 colher de sopa de azeite de oliva<br>
@@ -202,96 +216,93 @@
                         </ul>
 
                     </div>
-                    
-                </div>
 
+                </div>
+                <div class="modal-footer bg_color_recipe ">
+
+
+                </div>
             </div>
         </div>
         </div>
-    <!-- Modal 2-->
+        <!-- Modal 2-->
 
-    <div class=" modal fade " id="recipe_2" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class=" modal fade " id="recipe_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
             <div class=" modal-dialog " role="document">
                 <div class="modal-content  ">
-                    <div class="modal-header  ">
+                    <div class="modal-header bg_color_recipe ">
 
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body px-4"></div>
-                    <img src="img/parpadelle.jpeg" class="card-img-top imagem-card px-4 mt-4">
-                    <h3 class="modal-title recipe__title-modal" id="exampleModalLongTitle">Parpadelle com abobrinha defumada com tomate seco</h3>
-                    <div class="recipe__box_paragraph">
-                        <h3>Ingredientes </h3>
+                    <img src="img/parpadelle.jpeg" class="card-img-top imagem-card px-4 mt-2">
+                    <h3 class="modal-title recipe__title-modal" id="exampleModalLongTitle">Parpadelle com abobrinha
+                        defumada com tomate seco</h3>
+                    <div class="recipe__box_paragraph_modal ">
+                        <h4>Ingredientes </h4>
                         <ul>• 1 colher de manteiga <br>
                             • 500g de massa tipo Pappardelle<br>
                             • 1 vidro de 200g de antepasto de abobrinha defumada com tomate seco<br>
                             • Queijo ralado de sua preferencia a gosto<br>
                             • Sal para o cozimento do macarrão<br>
-                            
+
                         </ul>
 
                         <h3>Modo de preparo</h3>
-                        <ul>
+                        <ul class="px-3">
                             1. Cozinhe o papardelle em 1l e meio de sal.<br>
-                            2. Em uma panela aqueça a manteiga, o antepasto de abobrinha defumada com tomate seco e adicione ao macarrão já cozido e escorrido.<br>
+                            2. Em uma panela aqueça a manteiga, o antepasto de abobrinha defumada com tomate seco e
+                            adicione ao macarrão já cozido e escorrido.<br>
                             3. Rale seu queijo de preferencia e está pronto para ser servido.<br>
                         </ul>
 
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class=" px-4 btn  button meuDeus" data-dismiss="modal">Voltar</button>
-
-                    </div>
+                    <div class="modal-footer bg_color_recipe "></div>
                 </div>
 
             </div>
         </div>
         </div>
 
-         <!-- Modal 3-->
+        <!-- Modal 3-->
 
-    <div class=" modal fade " id="recipe_3" tabindex="-1" role="dialog"
-    aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-    <div class=" modal-dialog " role="document">
-        <div class="modal-content  ">
-            <div class="modal-header  ">
+        <div class=" modal fade " id="recipe_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class=" modal-dialog " role="document">
+                <div class="modal-content  ">
+                    <div class="modal-header bg_color_recipe  ">
 
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
+                        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body px-4"></div>
+                    <img src="img/dadinho.jpeg" class="card-img-top imagem-card px-4 mt-2">
+                    <h3 class="modal-title recipe__title-modal" id="exampleModalLongTitle">Dadinho de tapioca com geleia
+                        de rosas e gengibre</h3>
+                    <div class="recipe__box_paragraph_modal ">
+                        <h4>Ingredientes </h4>
+                        <ul class="px-3">• 250 g de tapioca granulada <br>
+                            • 300 g queijo coalho ralado<br>
+                            • 500 ml leite morno<br>
+                            • Sal e Pimenta a gosto<br>
+                        </ul>
+
+                        <h3>Modo de preparo</h3>
+                        <ul>
+                            1. Misture todos os ingredientes e unte a forma com manteiga.<br>
+                            2. Coloque a mistura a uma espessura de 2 cm e leve à geladeira por 3 horas.<br>
+                            3. Depois, asse a 180 graus por 10 minutos.<br>
+                            4. Servir com geleia de rosa e gengibre das Conservas Libertárias.<br>
+                        </ul>
+
+                    </div>
+                    <div class="modal-footer bg_color_recipe "></div>
+                </div>
             </div>
-            <div class="modal-body px-4"></div>
-            <img src="img/dadinho.jpeg" class="card-img-top imagem-card px-4 mt-4">
-            <h3 class="modal-title recipe__title-modal" id="exampleModalLongTitle">Dadinho de tapioca com geleia de rosas e gengibre</h3>
-            <div class="recipe__box_paragraph">
-                <h3>Ingredientes </h3>
-                <ul>• 250 g de tapioca granulada <br>
-                    • 300 g queijo coalho ralado<br>
-                    • 500 ml leite morno<br>
-                    • Sal e Pimenta a gosto<br>                    
-                </ul>
-
-                <h3>Modo de preparo</h3>
-                <ul>
-                    1. Misture todos os ingredientes e unte a forma com manteiga.<br>
-                    2. Coloque a mistura a uma espessura de 2 cm e leve à geladeira por 3 horas.<br>
-                    3. Depois, asse a 180 graus por 10 minutos.<br>
-                    4. Servir com geleia de rosa e gengibre das Conservas Libertárias.<br>
-                </ul>
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class=" px-4 btn  button meuDeus" data-dismiss="modal">Voltar</button>
-
-            </div>
-        </div>
-
-    </div>
-</div>
-</div>
 
     </section>
 
@@ -300,9 +311,9 @@
     <section id="contact" class="contact">
         <div class="bg-top">
         </div>
+
         <div class="contact__box">
             <h2 class="contact__box_title">Entre em contato</h2>
-
             <div class="contact__box_form">
 
 
@@ -329,6 +340,7 @@
             </div>
 
             <h2 class="contact__box_title">Siga nas Redes Sociais</h2>
+
             <div class="contact__box_redes-sociais">
                 <a href=""><img class="contact__box_redes-sociais-links" src="img/Facebook.png" alt=""></a>
                 <a href="https://www.instagram.com/conservaslibertarias/"><img class="contact__box_redes-sociais-links"
@@ -337,11 +349,13 @@
                         class="contact__box_redes-sociais-links" src="img/Youtube.png" alt=""></a>
                 <a href=""><img class="contact__box_redes-sociais-links" src="img/Whatsapp.png" alt=""></a>
             </div>
+
         </div>
+
         <div class="bg-bottom">
         </div>
     </section>
-
+<!-- comment -->
     <!-- Footer -->
     <div class="footer">
         <p class="footer__paragraph">© 2020 Conservas Libertárias. Todos os direitos reservados.</p>
@@ -349,6 +363,7 @@
 
     <script src="scripts/jquery-3.4.1.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
+
 </body>
 
 </html>
