@@ -57,13 +57,17 @@ body {
 
 
 /* Sobre */
+.about {
+    margin-top: -30px;
+}
+
 .about--slot-start{
     background: url("../image/about-start.png");
     height: 24px;
     width: 100%;
 }
 
-.about-box{
+.about-box {
     background: url("../image/about-center.png");
     padding: 140px 0;
 }
@@ -72,8 +76,8 @@ body {
     display: flex;
     margin: 0 auto;
     max-width: 1152px;
-    padding: 10px;
-    width: 100%;
+    padding: 20px;
+    width: calc(100% - 40px);
 }
 
 .about-text {
@@ -88,14 +92,23 @@ body {
 }
 
 .about-paragraph {
+    font-family: "Source Sans", sans-serif;
     font-size: 18px;
     line-height: 30px;
+    padding-right: 30px;
 }
 
 .about-image--wrapper {
+    align-items: flex-start;
     display: flex;
     flex: 1;
     justify-content: flex-end;
+}
+
+.about-image {
+    max-width: 496px;
+    object-fit: contain;
+    width: 100%;
 }
 
 .about--slot-end{
@@ -103,6 +116,29 @@ body {
     height: 24px;
     width: 100%;
 }
+
+@media (max-width: 1150px) {
+    .about-text {
+        flex: 1;
+    }    
+}
+
+@media (max-width: 768px) {
+    .about-box {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .about--content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-image--wrapper {
+        justify-content: flex-start;
+        padding-bottom: 40px;
+    }
+} 
 
 /* Carrossel */
 
