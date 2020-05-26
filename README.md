@@ -17,4 +17,4 @@ As Conservas Libertárias nascem de encontros entre amigas onde se discutiam ass
 * [Ilza Medeiros](https://github.com/ilzinha)
 * [Jordana Sampaio](https://github.com/jordanasampaio)
 * [Raquel Andrade](https://github.com/RaquelBennington)
-* [Raquel Magnani(https://github.com/RaquelMagnani)
+* [Raquel Magnani](https://github.com/RaquelMagnani)
