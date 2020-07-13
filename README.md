@@ -1,4 +1,4 @@
- <h1 align="center"> Conservas Libertárias </h1> :fork_and_knife:
+ <h1 align="center"> Conservas Libertárias :fork_and_knife: </h1> 
  
  Projeto com clientes reais proporcionado pelo [{reprograma}](https://github.com/reprograma), Turma 9 - 2020
  
@@ -10,11 +10,15 @@
 <strong>Status do Projeto:</strong> Em desenvolvimento :warning:
 
 ### Deploy da Aplicação com Netlify: :dash:
+[Conservas Libertárias] (https://www.conservaslibertarias.com.br/)
 
 ### Linguagens e libs utilizadas :books:
 :pushpin: Figma
+
 :pushpin: HTML
+
 :pushpin: CSS
+
 :pushpin: Bootstrap
 
 
