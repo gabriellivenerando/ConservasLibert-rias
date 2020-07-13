@@ -1,6 +1,6 @@
  <h1 align="center"> Conservas Libertárias :fork_and_knife: </h1> 
  
- <h2 align="center"> Projeto com clientes reais proporcionado pelo [{reprograma}](https://github.com/reprograma), Turma 9 - 2020 </h2>
+ <h2> Projeto com clientes reais proporcionado pelo [{reprograma}](https://github.com/reprograma), Turma 9 - 2020 </h2>
  
  
 ### Descrição do Projeto :open_file_folder:
