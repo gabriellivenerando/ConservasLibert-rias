@@ -23,8 +23,12 @@
 
 
 ### Desenvolvedoras :raising_hand:
-* [Gabrielli Venerando](https://github.com/gabriellivenerando)
-* [Ilza Medeiros](https://github.com/ilzinha)
-* [Jordana Sampaio](https://github.com/jordanasampaio)
-* [Raquel Andrade](https://github.com/RaquelBennington)
-* [Raquel Magnani](https://github.com/RaquelMagnani)
+:one: [Gabrielli Venerando](https://github.com/gabriellivenerando)
+
+:two: [Ilza Medeiros](https://github.com/ilzinha)
+
+:three: [Jordana Sampaio](https://github.com/jordanasampaio)
+
+:four: [Raquel Andrade](https://github.com/RaquelBennington)
+
+:five: [Raquel Magnani](https://github.com/RaquelMagnani)
